@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/style/media-index.css">
     <style href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" rel="stylesheet"></style>
     <style href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.rtl.min.css" rel="stylesheet"></style>
     <link rel="stylesheet" href="https://subinbab.github.io/Lane-Management/style/main.css">
@@ -35,6 +36,40 @@
     <div class="hamgurder-div-3"></div>
 </div>
     </div>
+</nav>
+<nav class="nav-cls-web">
+<div class="nav-cls-web-main">
+<div class="nav-cls-web-logo">
+<h1>LANE MANAGEMENT</h1>
+</div>
+<div style="
+flex: 3;
+">
+
+</div>
+<div class="nav-cls-web-home">
+<h2>HOME</h2>
+</div>
+<div class="nav-cls-web-services">
+  <h2>SERVICES</h2>
+  <div class="nav-cls-web-services-drpdwn">
+    <ul class="nav-cls-web-services-menu-ul">
+      <li><a href="https://subinbab.github.io/Lane-Management/languageacademy.html">Lane Language Academy</a></li>
+      <li><a href="https://subinbab.github.io/Lane-Management/sportsacademy.html">Lane Sports Academy</a></li>
+      <li><a href="https://subinbab.github.io/Lane-Management/eventmanagement.html">Lane Event Manager and Organizer</a></li>
+      <li><a href="https://subinbab.github.io/Lane-Management/itsolutions.html">Lane IT Solutions</a></li>
+      <li><a href="https://subinbab.github.io/Lane-Management/homecare.html">Lane Home Care and Assistnace Service</a></li>
+      <li><a href="https://subinbab.github.io/Lane-Management/advertisingandmarketing.html">Lane Advertising and Marketing</a></li>
+  </ul>
+  </div>
+</div>
+<div class="nav-cls-web-about">
+<h2>ABOUT</h2>
+</div>
+<div class="nav-cls-web-contact">
+<h2>CONTACT</h2>
+</div>
+</div>
 </nav>
 </main>
 <div class="body-content" style="display: block;">
@@ -235,7 +270,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://subinbab.github.io/Lane-Management/scripts/slick.min.js"></script>
     <script>
-
+$(".nav-cls-web-services").click(function(){
+  $(".nav-cls-web-services-drpdwn").toggle()
+  const pizza = document.querySelector('.nav-cls-web-services');
+pizza.classList.toggle('nav-cls-web-services-flex-2');
+})
             $(".slick-slider").slick({
    slidesToShow: 1,
    infinite:false,
