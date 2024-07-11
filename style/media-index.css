@@ -1,0 +1,75 @@
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .nav-cls{
+        display: none;
+    }
+    .nav-cls-web{
+        display: block;
+    }
+    .nav-cls-web-main{
+        width: 100%;
+        display: flex;
+    }
+    .nav-cls-web-logo{
+        flex: 2;
+    }
+
+    .nav-cls-web-logo h1{
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .nav-cls-web-home{
+        flex: 1;
+    }
+    .nav-cls-web-home h2{
+font-size: 18px;
+    }
+    .nav-cls-web-services{
+        flex: 1;
+    }
+    .nav-cls-web-services h2{
+        font-size: 18px;
+    }
+    .nav-cls-web-about{
+        flex: 1;
+    }
+    .nav-cls-web-about h2{
+        font-size: 18px;
+    }
+    .nav-cls-web-contact{
+        flex: 1;
+    }
+    .nav-cls-web-contact h2{
+        font-size: 18px;
+    }
+    .nav-cls-web-services-drpdwn{
+        display: none;
+        background-color: white;
+        position: absolute;
+        /* display: none; */
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .nav-cls-web-services-menu-ul{
+        padding: 0;
+    /* display: none; */
+    list-style-type: none;
+    text-decoration: none;
+    }
+    .nav-cls-web-services-menu-ul li{
+        border-bottom: 1px black solid;
+    padding: 10px;
+    }
+    .nav-cls-web-services-flex-2{
+        flex: 2;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .nav-cls-web{
+        display: none;
+    }
+
+  }
