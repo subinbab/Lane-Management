@@ -205,7 +205,6 @@ height: 400px;
 }
 .main{
     min-height: 100vh;
-    overflow: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -291,9 +290,9 @@ height: 400px;
     top: 50%;
     position: absolute;
     left: 307px;
-    border: 1px solid white;
+    border: 1px solid #d7d7d7;
     color: white;
-    background-color: #337ab74a;
+    background-color: #babbbb4a;
     height: 38px;
     width: 38px;
     padding: 7px;
@@ -304,9 +303,9 @@ height: 400px;
     top: 50%;
     position: absolute;
     left: 19px;
-    border: 1px solid white;
+    border: 1px solid #d7d7d7;
     color: white;
-    background-color: #337ab74a;
+    background-color: #babbbb4a;
     height: 38px;
     width: 38px;
     padding: 7px;
@@ -334,6 +333,10 @@ height: 400px;
     font-weight: bold;
     color: #fffdfa;
 }
+.m0{
+    margin: 0 !important;
+    width: 10px;
+}
 .reason-div-description{
     margin: 28px;
     color: white;
@@ -352,6 +355,9 @@ height: 400px;
     text-align: center;
     font-weight: bold;
 }
+.flex{
+    display: flex;
+}
  .aboutus-p-3{
     margin: 15px;
 }
@@ -365,10 +371,9 @@ height: 400px;
     font-size: 8px;
 
 }
-body{
-    background-image: url("/sources/images/pexels-hngstrm-1939485.jpg");
-}
+
 .footer-basic {
+    position: relative;
     padding:40px 0;
     background-color:#ffffff;
     color:#4b4c4d;
@@ -380,7 +385,7 @@ body{
     text-align:center;
     font-size:18px;
     line-height:1.6;
-    margin-bottom:0;
+
   }
   
   .footer-basic li {

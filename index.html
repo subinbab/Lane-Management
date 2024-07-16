@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://subinbab.github.io/Lane-Management/style/media-index.css">
+    <!-- <link rel="stylesheet" href="https://subinbab.github.io/Lane-Management/style/media-index.css"> -->
+    <link rel="stylesheet" href="/style/media-index.css">
     <style href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" rel="stylesheet"></style>
     <style href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.rtl.min.css" rel="stylesheet"></style>
-    <link rel="stylesheet" href="https://subinbab.github.io/Lane-Management/style/main.css">
+    <!-- <link rel="stylesheet" href="https://subinbab.github.io/Lane-Management/style/main.css"> -->
+    <link rel="stylesheet" href="/style/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -21,6 +23,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
+  <!-- <div class="loader-main"><div class="loader-24"></div></div> -->
 
     <div class="notification"></div>
     <main class="main-cls">
@@ -37,66 +40,74 @@
 </div>
     </div>
 </nav>
-<nav class="nav-cls-web">
-<div class="nav-cls-web-main">
-<div class="nav-cls-web-logo">
-<h1>LANE MANAGEMENT</h1>
-</div>
-<div style="
-flex: 3;
-">
 
-</div>
-<div class="nav-cls-web-home">
-<h2>HOME</h2>
-</div>
-<div class="nav-cls-web-services">
-  <h2>SERVICES</h2>
-  <div class="nav-cls-web-services-drpdwn">
-    <ul class="nav-cls-web-services-menu-ul">
-      <li><a href="https://subinbab.github.io/Lane-Management/languageacademy.html">Lane Language Academy</a></li>
-      <li><a href="https://subinbab.github.io/Lane-Management/sportsacademy.html">Lane Sports Academy</a></li>
-      <li><a href="https://subinbab.github.io/Lane-Management/eventmanagement.html">Lane Event Manager and Organizer</a></li>
-      <li><a href="https://subinbab.github.io/Lane-Management/itsolutions.html">Lane IT Solutions</a></li>
-      <li><a href="https://subinbab.github.io/Lane-Management/homecare.html">Lane Home Care and Assistnace Service</a></li>
-      <li><a href="https://subinbab.github.io/Lane-Management/advertisingandmarketing.html">Lane Advertising and Marketing</a></li>
-  </ul>
-  </div>
-</div>
-<div class="nav-cls-web-about">
-<h2>ABOUT</h2>
-</div>
-<div class="nav-cls-web-contact">
-<h2>CONTACT</h2>
-</div>
-</div>
-</nav>
 </main>
-<div class="body-content" style="display: block;">
+<div class="body-content">
 <div class="main">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-interval="2000" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-interval="2000" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-interval="2000" data-slide-to="2"></li>
         </ol>
-    
+        
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-          <div class="item active">
-            <div class="item-div" style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div> 
-            <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
+          <nav class="nav-cls-web">
+            <div class="nav-cls-web-main">
+              <div class="nav-cls-web-about">
+                <h2>ABOUT</h2>
+                </div>
+                <div class="nav-cls-web-contact">
+                <h2>CONTACT</h2>
+                </div>
+            <div class="nav-cls-web-logo">
+            <h1>LANE MANAGEMENT</h1>
+            </div>
+            
+            <div class="nav-cls-web-services11">
+              <div class="nav-cls-web-services">
+                <h2 class="service-drpwn-close">SERVICES</h2>
+                <div class="service-dropdwn service-drpwn-close1 service-drpwn-close"><i class="fa dorpdown-arrow fa-caret-up"></i></div>
+               
+              </div>
+             <div class="nav-cls-web-services-drpdwn">
+                  <div>
+                    <div class="nav-cls-web-services-open nav-cls-web-services-open1 nav-cls-web-services1">
+                      <h2>SERVICES</h2>
+                      <div class="service-dropdwn" style="    margin-right: 15px;"><i class="fa dorpdown-arrow fa-caret-up"></i></div>
+                  </div>
+                  <ul class="nav-cls-web-services-menu-ul">
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/languageacademy.html">Lane Language Academy</a></li>
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/sportsacademy.html">Lane Sports Academy</a></li>
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/eventmanagement.html">Lane Event Manager and Organizer</a></li>
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/itsolutions.html">Lane IT Solutions</a></li>
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/homecare.html">Lane Home Care and Assistnace Service</a></li>
+                    <li class="services-links"><a href="https://subinbab.github.io/Lane-Management/advertisingandmarketing.html">Lane Advertising and Marketing</a></li>
+                </ul>
+                </div>  
+              </diV>
+                
+            </div>
+            
+            
+            </nav>
+          <div class="item active image-container" data-ride="carousel" data-interval="2000">
+            <div class="item-div " style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div> 
+            <img src="/sources/images/pexels-rdne-8336927-laptop-no-resize.png" alt="Los Angeles" style="width:100%;">
           </div>
-    
-          <div class="item">
-            <div class="item-div" style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div>   
-            <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Chicago" style="width:100%;">
+          <!-- <div class="
+          carousal-ovrelay
+    "></div> -->
+          <div class="item image-container" data-ride="carousel" data-interval="2000">
+            <div class="item-div " style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div> 
+            <img src="/sources/images/pexels-rdne-8336927-laptop-no-resize.png" alt="Los Angeles" style="width:100%;">
           </div>
         
-          <div class="item">
-            <div class="item-div" style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div> 
-            <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="New york" style="width:100%;">
+          <div class="item image-container" data-ride="carousel" data-interval="2000">
+            <div class="item-div " style="position: absolute;"><div class="first-line">Ipsum</div> <div class="second-line">dolor sit amet consectetur adipisicing elit.</div><div class="third-line"> Consequatur error pariatur qui dolorum Consequatur error pariatur qui esse</div><button class="item-button btn">Go To Courses</button> </div> 
+            <img src="/sources/images/pexels-rdne-8336927-laptop-no-resize.png" alt="Los Angeles" style="width:100%;">
           </div>
         </div>
     
@@ -109,126 +120,200 @@ flex: 3;
           <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>
+        <div class="
+          carousal-ovrelay
+    "></div>
       </div>
-      <article class="artcle-cls">
-        <div class="card-section">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn card-btn">Go somewhere</a>
-                </div>
+   
+      <div class="service-card slick-slider">
+        <div class="service-card-main service-card-1">
+          <div>
+            <h2>Language Academy</h2>
+            <div class="service-underline"></div>
+          </div>
+          <div class="servcice1-descrpt">
+            <div class="service1-descript-1"><p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis itaque quibusdam voluptate deleniti ullam, omnis inventore excepturi officia in dolore pariatur at voluptatem quas, velit commodi iste ratione accusamus.</p>
+            <p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates hic rem provident blanditiis, odit dolores possimus saepe alias quidem, atque eaque error eos dignissimos, dolorum mollitia rerum explicabo iste?</p></div>
+            <div class="service-home-button">
+              <div class="services-card-button-div">
+                <button class="button-bc-white">Join Now</button>
+                <div class="m0"></div>
+              <button class="button-bc-green">Explore</button>
               </div>
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn card-btn">Go somewhere</a>
-                </div>
+              
+            </div>
+          </div>
+          <div class="card-star">
+            <div class="card-star1"><i class="fa-solid fa-star"></i><div></div></div>
+            <div class="card-star2"><i class="fa-solid fa-star"></i> <div></div></div>
+            <div class="card-star3"><i class="fa-solid fa-star"></i> <div></div></div>
+          </div>
+      </div>
+      <div class="service-card-main service-card-1">
+          <div>
+            <h2>Language Academy</h2>
+            <div class="service-underline"></div>
+          </div>
+          <div class="servcice1-descrpt">
+            <div class="service1-descript-1"><p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis itaque quibusdam voluptate deleniti ullam, omnis inventore excepturi officia in dolore pariatur at voluptatem quas, velit commodi iste ratione accusamus.</p>
+            <p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates hic rem provident blanditiis, odit dolores possimus saepe alias quidem, atque eaque error eos dignissimos, dolorum mollitia rerum explicabo iste?</p></div>
+            <div class="service-home-button">
+              <div class="services-card-button-div">
+                <button class="button-bc-white">Join Now</button>
+                <div class="m0"></div>
+              <button class="button-bc-green">Explore</button>
               </div>
-              <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn card-btn">Go somewhere</a>
-                </div>
+              
+            </div>
+          </div>
+          <div class="card-star">
+            <div class="card-star1"><i class="fa-solid fa-star"></i><div></div></div>
+            <div class="card-star2"><i class="fa-solid fa-star"></i> <div></div></div>
+            <div class="card-star3"><i class="fa-solid fa-star"></i> <div></div></div>
+          </div>
+      </div>
+      <div class="service-card-main service-card-1">
+          <div>
+            <h2>Language Academy</h2>
+            <div class="service-underline"></div>
+          </div>
+          <div class="servcice1-descrpt">
+            <div class="service1-descript-1"><p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis itaque quibusdam voluptate deleniti ullam, omnis inventore excepturi officia in dolore pariatur at voluptatem quas, velit commodi iste ratione accusamus.</p>
+            <p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates hic rem provident blanditiis, odit dolores possimus saepe alias quidem, atque eaque error eos dignissimos, dolorum mollitia rerum explicabo iste?</p></div>
+            <div class="service-home-button">
+              <div class="services-card-button-div">
+                <button class="button-bc-white">Join Now</button>
+                <div class="m0"></div>
+              <button class="button-bc-green">Explore</button>
               </div>
+              
+            </div>
+          </div>
+          <div class="card-star">
+            <div class="card-star1"><i class="fa-solid fa-star"></i><div></div></div>
+            <div class="card-star2"><i class="fa-solid fa-star"></i> <div></div></div>
+            <div class="card-star3"><i class="fa-solid fa-star"></i> <div></div></div>
+          </div>
+      </div>
+      <div class="service-card-main service-card-1">
+          <div>
+            <h2>Language Academy</h2>
+            <div class="service-underline"></div>
+          </div>
+          <div class="servcice1-descrpt">
+            <div class="service1-descript-1"><p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis itaque quibusdam voluptate deleniti ullam, omnis inventore excepturi officia in dolore pariatur at voluptatem quas, velit commodi iste ratione accusamus.</p>
+            <p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates hic rem provident blanditiis, odit dolores possimus saepe alias quidem, atque eaque error eos dignissimos, dolorum mollitia rerum explicabo iste?</p></div>
+            <div class="service-home-button">
+              <div class="services-card-button-div">
+                <button class="button-bc-white">Join Now</button>
+                <div class="m0"></div>
+              <button class="button-bc-green">Explore</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="card-star">
+            <div class="card-star1"><i class="fa-solid fa-star"></i><div></div></div>
+            <div class="card-star2"><i class="fa-solid fa-star"></i> <div></div></div>
+            <div class="card-star3"><i class="fa-solid fa-star"></i> <div></div></div>
+          </div>
+      </div>
+      <div class="service-card-main service-card-1">
+          <div>
+            <h2>Language Academy</h2>
+            <div class="service-underline"></div>
+          </div>
+          <div class="servcice1-descrpt">
+            <div class="service1-descript-1"><p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis itaque quibusdam voluptate deleniti ullam, omnis inventore excepturi officia in dolore pariatur at voluptatem quas, velit commodi iste ratione accusamus.</p>
+            <p><span class="service-card-sub-head">Lorem ipsum dolor</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates hic rem provident blanditiis, odit dolores possimus saepe alias quidem, atque eaque error eos dignissimos, dolorum mollitia rerum explicabo iste?</p></div>
+            <div class="service-home-button">
+              <div class="services-card-button-div">
+                <button class="button-bc-white">Join Now</button>
+                <div class="m0"></div>
+              <button class="button-bc-green">Explore</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="card-star">
+            <div class="card-star1"><i class="fa-solid fa-star"></i><div></div></div>
+            <div class="card-star2"><i class="fa-solid fa-star"></i> <div></div></div>
+            <div class="card-star3"><i class="fa-solid fa-star"></i> <div></div></div>
+          </div>
+      </div>
+    
+                        </div>
+                      
+                      </div>
+                      <div class="free-div" style="display: none;">
+                        <p class="members">MEET OUR BELOVED MEMBERS</p>
+                        <div class="members-div-1">
+                          <div class="members-div-11">
+                            <div class="members-div-111"></div>
+                            <div class="members-div-112"></div>
+                            <div class="members-div-113"></div>
+                            <div class="members-div-114"></div>
+                          </div>
+                          
+                        </div>
+                        
+                      </div>
+                      <div class="summary">
+                        <div class="choose-reason">
+                            <div class="reason-div">
+                              <div class="reason-div-p">
+                                <p class="reason-div-title choose-title">Why Choose Us</p> <div class="service-underline choose-us"></div>
+                              </div>
+                              
+                               <p class="reason-div-description">Experience excellence and personalized service with us.</p>
+                               <div class="options-1">
+                                <div class="flex">
+                                  <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
+                      
+                      
+                       <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
+                               
+                    </div>
+                  
+                  
+                  
+                  <div class="flex"> <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
+                
+                <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
+              </div>
+                                
+            </div>>
+          </div>
         </div>
-            </article>
+      </div>
+          <div class="about-us">
+            <div class="cover"></div>
+            <div >
+              <div class="client-details">
+<div class="client-details-div">
+  <i class="fa-solid fa-people-group"></i>
+  <p class="client-details-count">1000+</p>
+  <p>Happy Customers</p>
 </div>
-<div class="slick-slider">
-    <div class="element element-1"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-2"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-3"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-4"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-5"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-6"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-7"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-8"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-9"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-    <div class="element element-10"><div class="card-body">
-        <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles" style="width:100%;">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn card-btn">Go somewhere</a>
-    </div></div>
-  </div>
-  <div class="summary">
-<div class="summary-div-1">
-    <img src="https://subinbab.github.io/Lane-Management/sources/images/pexels-rdne-8336927.jpg" alt="Los Angeles">
+<div  class="client-details-div">
+  <i class="fa-solid fa-people-group"></i>
+  <p  class="client-details-count">1000+</p>
+  <p>Happy Customers</p>
 </div>
+<div  class="client-details-div">
+  <i class="fa-solid fa-people-group"></i>
+  <p class="client-details-count">1000+</p>
+  <p>Happy Customers</p>
+</div>
+<div  class="client-details-div" style=" border-right: none !important;;">
+  <i class="fa-solid fa-people-group"></i>
+  <p class="client-details-count">1000+</p>
+  <p>Happy Customers</p>
+</div>
+              </div>
+            </div>
 <div>
-    <div class="reason-div">
-       <p class="reason-div-title">Why Choose Us</p>
-       <p class="reason-div-description">Experience excellence and personalized service with us.</p>
-       <div class="options-1">
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-        <div class="icon-1-div"><span><img style="width: 50px;" src="https://subinbab.github.io/Lane-Management/sources/images/time-left.png"></span><span style="margin-left: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt dolore ab dolorem, dolor saepe animi iusto voluptatibus iure quis ducimus eveniet, atque libero voluptate a perferendis, voluptatum culpa repudiandae!</span></div>
-      
-       </div>>
-    </div>
-</div>
-  </div>
-<div class="aboutus">
-<div>
-    <p class="aboutus-p-1">About US</p>
-    <p class="aboutus-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam laborum aperiam odio labore. Corporis reiciendis officia impedit reprehenderit perspiciatis inventore minus eum fugiat. Beatae nobis explicabo ducimus cum ullam.</p>
-    <p class="aboutus-p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia labore quaerat alias, fugit beatae vitae vel incidunt itaque optio perferendis consequatur tempora sit, blanditiis laudantium obcaecati perspiciatis nesciunt sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minima sapiente fuga facere distinctio veritatis mollitia voluptate suscipit labore unde neque, laudantium dignissimos quis! Voluptas repudiandae eveniet fugit atque tenetur.</p>
-</div>
-</div>
-<div class="footer-basic">
+  <div class="footer-basic">
     <footer>
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">
@@ -240,7 +325,37 @@ flex: 3;
         </ul>
         <p class="copyright">Company Name © 2018</p>
     </footer>
+</div>  
 </div>
+          </div> 
+          <div class="round-about" >
+  <div class="round"><p class="title">About Us</p></div>
+ 
+</div>
+<div class="about-us-descript">
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus ex, repudiandae quasi voluptas veritatis eos quo quos sunt doloribus reiciendis, consectetur consequuntur rerum obcaecati molestiae voluptate porro facere dolorum odio!</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus ex, repudiandae quasi voluptas veritatis eos quo quos sunt doloribus reiciendis, consectetur consequuntur rerum obcaecati molestiae voluptate porro facere dolorum odio!</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus ex, repudiandae quasi voluptas veritatis eos quo quos sunt doloribus reiciendis, consectetur consequuntur rerum obcaecati molestiae voluptate porro facere dolorum odio!</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus ex, repudiandae quasi voluptas veritatis eos quo quos sunt doloribus reiciendis, consectetur consequuntur rerum obcaecati molestiae voluptate porro facere dolorum odio!</p>
+</div>
+                    
+    </div>
+    
+  </div>
+
+  </diV>
+
+
+
+<!-- <div class="aboutus">
+<div>
+    <p class="aboutus-p-1">About US</p>
+    <p class="aboutus-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam laborum aperiam odio labore. Corporis reiciendis officia impedit reprehenderit perspiciatis inventore minus eum fugiat. Beatae nobis explicabo ducimus cum ullam.</p>
+    <p class="aboutus-p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia labore quaerat alias, fugit beatae vitae vel incidunt itaque optio perferendis consequatur tempora sit, blanditiis laudantium obcaecati perspiciatis nesciunt sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minima sapiente fuga facere distinctio veritatis mollitia voluptate suscipit labore unde neque, laudantium dignissimos quis! Voluptas repudiandae eveniet fugit atque tenetur.</p>
+</div> -->
+</div>
+
  </div>
 
  
@@ -270,14 +385,24 @@ flex: 3;
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://subinbab.github.io/Lane-Management/scripts/slick.min.js"></script>
     <script>
+      
 $(".nav-cls-web-services").click(function(){
   $(".nav-cls-web-services-drpdwn").toggle()
+  $(".service-drpwn-close").toggle()
   const pizza = document.querySelector('.nav-cls-web-services');
 pizza.classList.toggle('nav-cls-web-services-flex-2');
 })
+
+$(".nav-cls-web-services1").click(function(){
+  $(".nav-cls-web-services-drpdwn").toggle()
+  $(".service-drpwn-close").toggle()
+  const pizza = document.querySelector('.nav-cls-web-services');
+pizza.classList.toggle('nav-cls-web-services-flex-2');
+
+})
             $(".slick-slider").slick({
    slidesToShow: 1,
-   infinite:false,
+   infinite:true,
    slidesToScroll: 1,
    autoplay: true,
    autoplaySpeed: 2000
@@ -314,6 +439,15 @@ $(".slick-prev")[0].innerHTML=""
     }
     $(".menu-ul-service").toggle();
  })
+//  $(document).ready(function(){
+//   setTimeout(() => {
+      
+//         $(".loader-24").toggle();
+//         $(".loader-main").toggle();
+        
+//             document.querySelector('.loader-24').style.animation = 'none';
+//         }, 100000);
+//  })
     </script>
 </body>
 </html>
