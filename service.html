@@ -11,7 +11,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" id="jssDefault" href="css/custom/theme-2.css"/>
-<link rel="icon" href="images/icons/web-title.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -23,7 +23,42 @@
     <!-- /.preloader -->
 
     <!-- switcher menu -->
- 
+    <div class="switcher">
+
+        <!-- Switcher button -->
+        <div class="switch_btn">
+            <button><i class="fa fa-cog fa-spin"></i></button>
+        </div>
+
+        <!-- switcher body -->
+        <div class="switch_menu">
+            <h5 class="title">Style Switcher</h5>
+
+                
+                <!-- color changer -->
+                <div class="switcher_container">
+                    <h5>Color Skins</h5>
+                    <ul id="styleOptions" title="switch styling">
+                        <li>
+                            <a href="javascript: void(0)" data-theme="theme-1" class="color2"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="theme-3" class="color3"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="theme-4" class="color4"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="theme-5" class="color5"></a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" data-theme="theme-6" class="color6"></a>
+                        </li>
+                    </ul>
+                </div>
+                
+        </div>
+    </div>
     <!-- end switcher menu -->
 
     <!--header search-->
@@ -46,7 +81,29 @@
     <!--end header search-->
     
     <!-- main header area -->
-    
+    <header class="main-header">
+
+        <!-- header upper -->
+        <div class="header-upper">
+            <div class="container">
+                <ul class="top-left">
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Sat  9.00 - 18.00</li>
+                    <li><i class="fa fa-phone"></i>[251] 235-3256</li>
+                </ul>
+                <div class="top-right">
+                    <ul class="social-top">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                    </ul>
+                    <div class="button-top">
+                        <a href="#" class="btn-one style-one">Get Appoinment</a>
+                    </div>
+                </div>             
+            </div>
+        </div>
         <!-- end header upper -->
 
         <!-- header lower -->     
@@ -72,9 +129,9 @@
                                     <ul class="navigation clearfix">
                                         <li><a href="index.html">Home</a>
                                         </li>
-                                        <li class="current"><a href="about.html">About Us</a>
+                                        <li><a href="about.html">About Us</a>
                                         </li>
-                                        <li class="dropdown"><a href="#">Services</a>
+                                        <li class="current dropdown"><a href="#">Services</a>
                                             <ul>
                                                 <li><a href="service.html">Our Service</a></li>
                                                 <li><a href="service-details.html">Service Details</a></li>
@@ -136,9 +193,9 @@
                                     <ul class="navigation clearfix">
                                         <li><a href="index.html">Home</a>
                                         </li>
-                                        <li class="current"><a href="about.html">About Us</a>
+                                        <li><a href="about.html">About Us</a>
                                         </li>
-                                        <li class="dropdown"><a href="#">Services</a>
+                                        <li class="current dropdown"><a href="#">Services</a>
                                             <ul>
                                                 <li><a href="service.html">Our Service</a></li>
                                                 <li><a href="service-details.html">Service Details</a></li>
@@ -180,7 +237,7 @@
     <!-- page title -->
     <div class="about-bg centered">
         <div class="container">
-            <div class="text">About Us</div>
+            <div class="text">Our Services</div>
         </div>
     </div>
     <!-- end page title -->
@@ -188,7 +245,7 @@
     <!-- bread-crumb -->
     <div class="bread-crumb">
         <div class="container">
-            <div class="text"><a href="index.html">Home</a><i class="fa fa-angle-right"></i> About us
+            <div class="text"><a href="index.html">Home</a><i class="fa fa-angle-right"></i> Our Services
             <div class="share"><i class="fa fa-share-alt" aria-hidden="true"></i>Share</div>
             </div>
         </div>
@@ -196,223 +253,112 @@
     <!-- bread crumb end -->
 
 
-    <!-- about section -->
-    <section class="about-section sec-pad">
+    <!-- service-style-two -->
+    <section class="service-style-tow">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 about-colmun">
-                    <div class="about-content">
-                        <div class="about-title">
-                            <div class="section-title"><h2>About The Lane Manage</h2></div>
-                            <div class="title-text"></div>
-                        </div>
-                        <div class="text"><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque laudantium.</p></div>
-                        <ul class="list">
-                            <li>Morbi fermentum felis nec</li>
-                            <li> Morbi fermentum felis nec gravida tempus.</li>
-                            <li>Morbi fermentum felis nec gravida</li>
-                        </ul>
-                        <div class="text"><p>Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae.</p></div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-graph"></i></a></div>
+                        <h4><a href="service-details.html">Business Growth</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 about-colmun">
-                    <div class="img-box"><figure><img src="images/about/about-us-1.jpg" alt=""></figure></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about section end -->
-
-
-    <!-- service section -->
-    <section class="service-section">
-        <div class="container-fullid">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-sm-12 service-colmun">
-                    <div class="service-title">
-                        <div class="sec-title"><h2>Our <span>Services</span></h2></div>
-                        <div class="text"><p>Discover a diverse range of specialized services designed to meet your unique needs. At Lane Management, we deliver excellence through tailored solutions, helping you achieve success across every lane of your journey.</p></div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-people"></i></a></div>
+                        <h4><a href="service-details.html">Financial Advise</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-12 col-xs-12 service-colmun">
-                    <div class="three-column-carousel">
-                        <div class="single-item">
-                            <div class="icon-box"><a href="service-details.html"><i class="flaticon-graph"></i></a></div>
-                            <h4><a href="service-details.html">Lane Language Academy</a></h4>
-                            <div class="text"><p>We offer comprehensive language courses in English, Malayalam, Hindi, and more. Tailored to suit individuals, students, and working professionals, our programs help you achieve fluency and confidence.</p></div>
-                        </div>
-                        <div class="single-item">
-                            <div class="icon-box"><a href="service-details.html"><i class="flaticon-people"></i></a></div>
-                            <h4><a href="service-details.html">Lane Event Manager and Organizer</a></h4>
-                            <div class="text"><p>From corporate events to weddings, our full-service event management ensures your special occasion is flawlessly executed. We handle everything from concept to completion.</p></div>
-                        </div>
-                        <div class="single-item">
-                            <div class="icon-box"><a href="service-details.html"><i class="flaticon-suitcase"></i></a></div>
-                            <h4><a href="service-details.html">Lane Home Care and Assistance Services</a></h4>
-                            <div class="text"><p>Offering personalized care plans, skilled nursing, and support services, we ensure the well-being of elderly and disabled individuals in the comfort of their homes.</p></div>
-                        </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-suitcase"></i></a></div>
+                        <h4><a href="service-details.html">Business Consulting</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-business"></i></a></div>
+                        <h4><a href="service-details.html">Advanced Analytics</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-investment"></i></a></div>
+                        <h4><a href="service-details.html">Investment Banking</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-colmun">
+                    <div class="service-content">
+                        <div class="icon-box"><a href="service-details.html"><i class="flaticon-bar-chart"></i></a></div>
+                        <h4><a href="service-details.html">Market Research</a></h4>
+                        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmotempor inc
+                        ididunt ut labore</p></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- feature section end -->
+    <!-- service style two end -->
 
-    <!-- testimonial section -->
-    <!-- <section class="testimonial-section sec-pad">
-        <div class="container">
-            <div class="testimonial-title centered">
-                <div class="section-title"><h2>Testimonials</h2></div>
-                <div class="title-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm temp </p></div>
-            </div>
-            <div class="testimonial-slider">
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/1.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/2.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/3.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/1.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/2.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/3.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/1.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/2.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-                <div class="testimonial-content">
-                    <div class="authore-info">
-                        <div class="img-box"><figure><img src="images/testimonial/3.png" alt=""></figure></div>
-                        <div class="author-meta">
-                            <h4>William Ayrton</h4>
-                            <span>Limo Advisor</span>
-                        </div>
-                    </div>
-                    <div class="text"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mquelaud
-                    antiumes.</p></div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- testimonial section end -->
-
-    <!-- fact-counter -->
-    <section class="fact-counter centered">
+    <!-- call-back-section -->
+    <section class="call-back sec-pad">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 counter-colmun">
-                    <div class="single-item">
-                        <article class="column wow fadeIn" data-wow-duration="0ms">
-                            <div class="count-outer"><span class="count-text" data-speed="1500" data-stop="25">0</span><span>+</span></div>
-                            <div class="text">Years Experience</div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 counter-colmun">
-                    <div class="single-item">
-                        <article class="column wow fadeIn" data-wow-duration="0ms">
-                            <div class="count-outer"><span class="count-text" data-speed="1500" data-stop="45">0</span><span>+</span></div>
-                            <div class="text">Awards Win</div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 counter-colmun">
-                    <div class="single-item">
-                        <article class="column wow fadeIn" data-wow-duration="0ms">
-                            <div class="count-outer"><span class="count-text" data-speed="1500" data-stop="1250">0</span><span>+</span></div>
-                            <div class="text">Happy Customers</div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 counter-colmun">
-                    <div class="single-item">
-                        <article class="column wow fadeIn" data-wow-duration="0ms">
-                            <div class="count-outer"><span class="count-text" data-speed="1500" data-stop="150">0</span><span>+</span></div>
-                            <div class="text">Our Expert Staffs</div>
-                        </article>
+                <div class="col-md-8 col-sm-12 col-xs-12 colmun">
+                    <div class="call-back-content">
+                        <div class="call-back-title">
+                            <div class="section-title"><h2>Request A <span>Call Back</span></h2></div>
+                            <div class="title-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm temp </p></div>
+                        </div>
+                        <div class="form-area">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 colmun">
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 colmun">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 colmun">
+                                        <input type="text" placeholder="Phone">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 colmun">
+                                        <div class="select-box">
+                                            <i class="fa fa-angle-down"></i>
+                                            <select class="custom-select-box">
+                                                <option>Select a Topic</option>
+                                                <option>Project</option>
+                                                <option>Financial</option>
+                                                <option>Bima</option>
+                                                <option>Insurence</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <button class="btn-one style-one radi">Send Request</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- fact-counter section end -->
+    <!-- call-back-section end -->
 
     <!-- team section -->
-    <!-- <section class="our-team sec-pad">
+    <section class="our-team sec-pad">
         <div class="container">
             <div class="team-title centered">
                 <div class="section-title"><h2>Our Experts</h2></div>
@@ -580,7 +526,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- team section end -->
 
     <!-- main footer area -->
@@ -652,7 +598,7 @@
     <!-- footer bottom -->
     <section class="footer-bottom centered">
         <div class="container">
-            <div class="copyright"><p><a href="#">The Lane Management</a> Copyright © 2024 All Right Reserved</p></div>
+            <div class="copyright"><p><a href="#">Thebiznes</a> Copyright © 2018 All Right Reserved</p></div>
         </div>
     </section>
 
