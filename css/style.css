@@ -1457,7 +1457,7 @@ span{
 
 .call-back{
   position: relative;
-  background: url(../images/home/c1.jpg);
+  background: url(../images/home/callback.jfif);
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -1466,7 +1466,7 @@ span{
 .call-back:before{
   position: absolute;
   content: '';
-  background: url(../images/home/c2.jpg);
+  background: url(../images/home/people-call.png);
   width: 36%;
   height: 100%;
   top: 0px;
