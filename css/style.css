@@ -1815,8 +1815,11 @@ span{
   margin-bottom: 23px;
 }
 .footer-logo{
+  border-radius: 39px;
+  width: 80px;
+  background-color: white;
   position: relative;
-  background: url(../images/home/Black\ And\ White\ Modern\ Marketing\ Agency\ Round\ Stamp\ Business\ Logo\(1\).svg) no-repeat 9% 100%;
+  /* background: url(../images/home/Black\ And\ White\ Modern\ Marketing\ Agency\ Round\ Stamp\ Business\ Logo\(1\).svg) no-repeat 9% 100%; */
   height: 80px;
   margin-bottom: 20px;
   margin-left: -13px;
@@ -1949,7 +1952,7 @@ span{
 .about-bg{
   position: relative;
   padding: 175px 0px 80px 0px;
-  background: url(../images/home/business-people-shaking-hands.png);
+  background: url(../images/home/am-homecare-min.jpg);
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -2773,13 +2776,28 @@ textarea:focus{
   font-size: 30px !important;
   font-weight: bold !important;
 }
+
 @media screen and (max-width:760px){
+  .DsktpV{
+    display: block !important;
+    border-radius: 4px;
+      z-index: 100000;
+      position: fixed;
+      background-color: #f6b129;
+      top: 89%;
+      left: 82%;
+      color: black;
+      padding: 10px;
+  }
   .home-slidersubtext{
     font-size: 22px !important;
     font-weight: bold !important;
   }
   .logo-header{
     position: relative;
+    align-items: end;
+    display: flex;
+    justify-content: end;
   }
   .dropdown{
     position: absolute;
@@ -2803,4 +2821,10 @@ textarea:focus{
 }
 .fact-counter{
   display: none !important;
+}
+.tp-parallax-wrap{
+  left: 100px;
+}
+.DsktpV{
+ display: none;
 }
